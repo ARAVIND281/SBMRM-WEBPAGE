@@ -1,0 +1,22 @@
+.main{
+        box-shadow: 5px 10px 18px red;
+    }
+    
+    .img{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+        background-color: #ffffff;
+    
+    }
+    .text1{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .test{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
