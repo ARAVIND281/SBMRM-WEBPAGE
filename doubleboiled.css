@@ -56,7 +56,6 @@ article {
 #p1 {
     -webkit-text-stroke: 0.25px blue;
     background-attachment: scroll;
-    /*height: 400px;*/
     padding: 20px;
     margin-bottom: 20px;
     overflow: auto;
@@ -90,18 +89,6 @@ article {
     max-width: 400px;
     
 }
-/*.dbs{ 
-    
-}*/
-/*.dbs:hover{
-    color: yellow;
-    box-shadow: -5px -10px 10px blue;
-    transition: .5s;
-    max-width: 400px;
-    background-color: blue;
-    width: 100%;
-
-}*/
 
 .polling_message {
     color: white;
@@ -217,13 +204,12 @@ code {
     max-width: 56%;
 }
 
-li a {
+.a2 a {
     display: block;
         width: 300px;
         height: 50px;
         /*padding: 20px 0;*/
         background: #06c;
-        color: white;
         color: yellow;
         text-align: center;
     box-shadow: 5px 10px 10px pink;
@@ -236,7 +222,50 @@ li a {
         
     }
     
-    li a:hover {
-        width: 100%;
+    .a2 a:hover {
+        width: 88%;
+        color: red;
         box-shadow: -5px -10px 10px orangered;
+        height: 350px;
+        background: url(mattaricepro.png);
+        
     }
+    .a1 a {
+        display: block;
+            width: 300px;
+            height: 50px;
+            /*padding: 20px 0;*/
+            background: #06c;
+            color: yellow;
+            text-align: center;
+        box-shadow: 5px 10px 10px pink;
+            
+        }
+        .a1 a:hover {
+            width: 102%;
+            color: red;
+            box-shadow: -5px -10px 10px orangered;
+            height: 350px;
+            background: url(KURUVARICEPRO.png);
+            
+        }
+
+        .a3 a {
+            display: block;
+                width: 300px;
+                height: 50px;
+                /*padding: 20px 0;*/
+                background: #06c;
+                color: yellow;
+                text-align: center;
+            box-shadow: 5px 10px 10px pink;
+                
+            }
+            .a3 a:hover {
+                width: 88%;
+                color: red;
+                box-shadow: -5px -10px 10px orangered;
+                height: 350px;
+                background: url(Noorjahan.png);
+                
+            }

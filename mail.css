@@ -1,6 +1,148 @@
-table{
+.concact{
+    margin-left: 20%;
+}
+#p1{
+    color: white;
+    
+}
+.text1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.main{
     box-shadow: 5px 10px 18px red;
+    transform: translate(-45%,0%);
 }
 .img{
     text-align: center;
 }
+
+.text{ 
+    text-align: center;
+    background-color: #ffffff;
+
+}
+.head1{
+    flex-wrap: nowrap;
+
+}
+
+article {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+.code1{
+    color: blue;
+    
+}
+
+.polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+  }
+  
+  .view_port {
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .cylon_eye {
+    background-color: chocolate;
+    background-image: url("home.png");
+    background-image: linear-gradient(to right,
+        rgba(0, 0, 0, .9) 25%,
+        rgba(0, 0, 0, .1) 50%,
+        rgba(0, 0, 0, .9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+  
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+            animation: 4s linear 0s infinite alternate move_eye;
+  }
+  
+  @-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+          @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+
+          .ain {
+            width: 600px;
+            height: 400px;
+            background-image: url("home.png");
+            animation-name: example;
+            position: relative;
+            animation-duration: 20s;
+            animation-iteration-count: 100;
+        }
+
+        @keyframes example {
+            0% {
+                background-image: url("home.png");
+                left: 50%;
+            }
+
+            25% {
+                background-image: url("gallery.png");
+                left: 20%;
+            }
+
+            50% {
+                background-image: url("about.png");
+                left: 50%;
+            }
+
+            100% {
+                background-image: url("boiled.png");
+                left: 20%;
+            }
+        }
+
+        .logo a,
+        img {
+            display: block;
+            color: rgba(255, 255, 255, .5);
+            transition: .5s;
+        }
+
+        .logo a:hover {
+            background: rgba(255, 255, 255, .5);
+            color: white;
+            border-color: white;
+        }
+
+        #pet a {
+            width: 100px;
+            margin-top: 10px;
+            background: white;
+            border: 10px solid white;
+            border-radius: 10px;
+            opacity: 0.9;
+        }
+
+        #pet a:hover {
+            background: white;
+            box-shadow: 0 0 100px 50px rgba(255, 255, 255, .5);
+            opacity: 1;
+        }
+        .head1-1{
+            position: relative;
+        }
+        .head1-1{
+            transform: translate(12%,-130%);
+            max-width: 89.5%;
+        }
+        .ps{
+            position: relative;
+        }
+        .ps{
+            transform: translate(30%,-280%);
+            box-shadow: -5px 10px 18px blue;
+            max-width: 56%;
+        }
+
+        

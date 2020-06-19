@@ -20,7 +20,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-#p1 {
+#p1 { 
     -webkit-text-stroke: 0.25px blue;
     background-attachment: scroll;
     /*height: 400px;*/
@@ -108,34 +108,23 @@ article {
 
           .ain {
             width: 600px;
-            height: 400px;
-            background-image: url("home.png");
-            animation-name: example;
-            position: relative;
-            animation-duration: 20s;
-            animation-iteration-count: 100000;
+            height: 367px;
+            margin-left: 25%;
+            background-image: url("image.png");
+            display: block;
+            color: rgba(255, 255, 255, .5);
+            transition: .5s;
+            border: 10px solid white;
+            border-radius: 10px;
+            opacity: 0.9;
         }
 
-        @keyframes example {
-            0% {
-                background-image: url("home.png");
-                left: 50%;
-            }
-
-            25% {
-                background-image: url("gallery.png");
-                left: 20%;
-            }
-
-            50% {
-                background-image: url("about.png");
-                left: 50%;
-            }
-
-            100% {
-                background-image: url("boiled.png");
-                left: 20%;
-            }
+        .ain:hover {
+            color: white;
+            border-color: white;
+           
+            box-shadow: 0 0 100px 50px rgba(255, 255, 255, .5);
+            opacity: 1;
         }
 
         .logo a,
